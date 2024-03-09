@@ -12,7 +12,7 @@ while True:
             s.say("Thank you .. Have a nice day")
             s.runAndWait()
             break
-        url = f"https://api.weatherapi.com/v1/current.json?key=887b9eb6bddf44d688d133837230310&q={city}"
+        url = f"https://api.weatherapi.com/v1/current.json?key=887b9*******************************={city}"
         r = requests.get(url)
         wdic = json.loads(r.text)
         temp = wdic["current"]["temp_c"]
